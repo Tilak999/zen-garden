@@ -1,0 +1,86 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    /* font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;*/
+}
+
+@font-face {
+  font-family: 'Avnier-regular';
+  src: url('../font/avenir-next-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/avenir-next-regular.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Avnier-light';
+  src: url('../font/avenir-next-thin.woff') format('woff'), /* Super Modern Browsers */
+       url('../font/avenir-next-thin.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-attachment:fixed;
+    font-family: 'Avnier-regular';
+    font-size:12px;
+    position: absolute;
+    min-height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background: #D0021B;
+    color: #D0021B;
+}
+
+.page
+{
+    display: none;
+}
+
+#home,.page
+{
+    padding: 25px;
+}
+
+.btn
+{
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    margin-top:10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-sm
+{
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    float: left;
+}
+
+.question
+{
+    color:#fff;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: Avnier-light;
+}
+
+.bottom
+{
+    position: fixed;
+    bottom: 10px; left: 0;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box; 
+}
