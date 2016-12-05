@@ -230,6 +230,11 @@ public class CordovaActivity extends Activity {
         appView.loadUrlIntoView(url, true);
     }
 
+    public void send()
+    {
+        appView.sendJavascript("setScreenSleep(true)");
+    }
+
     /**
      * Called when the system is about to start resuming a previous activity.
      */

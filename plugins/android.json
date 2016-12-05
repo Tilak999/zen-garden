@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ideabox.nvrievr"
+            "PACKAGE_NAME": "com.ideabox.zen"
         }
     },
     "dependent_plugins": {}
